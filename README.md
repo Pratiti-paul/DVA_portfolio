@@ -19,6 +19,7 @@ A highly responsive, GitHub-inspired single-page portfolio designed to showcase 
 ## 📂 Featured Projects
 
 The portfolio currently highlights a mix of data analytics and web development repositories:
+- **B_G19_SwiggyAnalysis** (Python / Tableau)
 - **Spotify-Track-Analysis** (Tableau / Python)
 - **Airbnb-Price-Optimization** (Excel)
 - **Medico** (Web / Healthcare)
