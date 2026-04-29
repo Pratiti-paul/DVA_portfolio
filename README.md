@@ -1,8 +1,8 @@
-# Pratiti Paul - Data Analyst & Visualization Specialist Portfolio
+# Pratiti Paul - Data Analyst & Visualization Portfolio
 
 A highly responsive, GitHub-inspired single-page portfolio designed to showcase data analytics, visualization, and web development projects. Built entirely with vanilla HTML, CSS, and JavaScript.
 
-## 🚀 Features
+## Features
 
 - **GitHub Dark Mode Aesthetic**: A sleek, familiar UI utilizing GitHub's official dark mode color palette.
 - **Dynamic Repository Filtering**: Instantly filter projects by technology (Excel, Python, Tableau, Web, etc.).
@@ -10,13 +10,13 @@ A highly responsive, GitHub-inspired single-page portfolio designed to showcase 
 - **Fully Responsive**: Optimized for seamless viewing across desktop, tablet, and mobile devices.
 - **Zero Dependencies**: Lightweight architecture with absolutely no external CSS frameworks or heavy JavaScript libraries.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**: Semantic and accessible structure.
 - **CSS3**: Custom styling, robust CSS variables, and Flexbox/Grid layouts.
 - **JavaScript (Vanilla)**: Fast, lightweight DOM manipulation and filtering logic.
 
-## 📂 Featured Projects
+## Featured Projects
 
 The portfolio currently highlights a mix of data analytics and web development repositories:
 - **B_G19_SwiggyAnalysis** (Python / Tableau)
@@ -27,7 +27,7 @@ The portfolio currently highlights a mix of data analytics and web development r
 - **Neurofix** (Web / Medical)
 - **Cineverse** (Web / Cinema)
 
-## 🏃‍♂️ Running Locally
+## Running Locally
 
 Since this is a fully static site, you can run it directly in your browser without any build tools, dependencies, or local servers:
 
