@@ -325,7 +325,7 @@
 
             <div class="repo-grid" id="repo-grid">
                 
-                <div class="repo-card open-modal-btn" data-category="python" data-title="B_G19_SwiggyAnalysis" data-img="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" data-link="https://github.com/Pratiti-paul/B_G19_SwiggyAnalysis" data-desc="Comprehensive analysis of Swiggy delivery data using Python and Tableau to derive actionable insights.">
+                <div class="repo-card open-modal-btn" data-category="python tableau" data-title="B_G19_SwiggyAnalysis" data-link="https://github.com/Pratiti-paul/B_G19_SwiggyAnalysis" data-desc="Comprehensive analysis of Swiggy delivery data using Python and Tableau to derive actionable insights.">
                     <div class="repo-card-body">
                         <div class="repo-header">
                             <div class="repo-title-group">
@@ -343,7 +343,7 @@
                     </div>
                 </div>
 
-                <div class="repo-card open-modal-btn" data-category="tableau" data-title="Spotify-Track-Analysis" data-img="assets/spotify-dashboard.jpeg" data-link="https://github.com/Pratiti-paul/Spotify_Analysis" data-desc="Interactive Tableau dashboard analyzing 114k tracks to decode musical success factors using Python for data engineering.">
+                <div class="repo-card open-modal-btn" data-category="python tableau" data-title="Spotify-Track-Analysis" data-img="assets/spotify-dashboard.jpeg" data-link="https://github.com/Pratiti-paul/Spotify_Analysis" data-desc="Interactive Tableau dashboard analyzing 114k tracks to decode musical success factors using Python for data engineering.">
                     <div class="repo-card-body">
                         <div class="repo-header">
                             <div class="repo-title-group">
@@ -491,10 +491,11 @@
             repoCards.forEach(card => {
                 const title = card.getAttribute('data-title').toLowerCase();
                 const desc = card.getAttribute('data-desc').toLowerCase();
-                const category = card.getAttribute('data-category');
+                const category = card.getAttribute('data-category') || '';
+                const categories = category.split(' ').map(c => c.trim());
                 
                 const matchesSearch = title.includes(currentSearchTerm) || desc.includes(currentSearchTerm);
-                const matchesFilter = currentFilter === 'all' || category === currentFilter;
+                const matchesFilter = currentFilter === 'all' || categories.includes(currentFilter);
 
                 if (matchesSearch && matchesFilter) {
                     card.style.display = 'flex';
